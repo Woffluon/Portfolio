@@ -29,7 +29,7 @@ const Contact = () => {
       stagger: 0.2,
       ease: "power2.out",
     })
-    .from(".github-card", {
+    .from(".contact-link", {
       scale: 0.8,
       opacity: 0,
       duration: 0.8,
@@ -91,3 +91,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
